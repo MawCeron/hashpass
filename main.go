@@ -29,9 +29,9 @@ func main() {
 		password := os.Args[2]
 		hash := os.Args[3]
 		if ValidarPassword(password, hash) {
-			fmt.Println("✓ Password válido")
+			fmt.Println("✓ Valid Password")
 		} else {
-			fmt.Println("✗ Password inválido")
+			fmt.Println("✗ Invalid Password")
 			os.Exit(1)
 		}
 
