@@ -56,4 +56,4 @@ GOOS=windows GOARCH=amd64 go build -o hashpass.exe .
 
 ## Requirements
 
-Go 1.18 or higher.
+Go 1.18 or higher
