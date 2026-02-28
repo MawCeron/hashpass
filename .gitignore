@@ -1,0 +1,8 @@
+# Binaries
+hashpass
+hashpass.exe
+*.exe
+
+# Build output
+/bin/
+/dist/
